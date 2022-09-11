@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@300;400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+hr{
+    border-color: #A5A1A1;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #161616;
+}
+
+.nav-list{
+    display: flex;
+    gap: 40px;
+    color: #5CA720;
+    cursor: pointer;
+}
+
+main img{
+    width: 100%;
+}
+
+.info{
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-section{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.box-card{
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-card-info img{
+    width: 400px;
+    height: 300px;
+}
+
+.box-card-info h2{
+    margin: 20px 0;
+    color: #161616;
+}
+
+.box-card-info p{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.box-card-info strong{
+    font-size: 24px;
+    font-weight: bold;
+    color: #5CA720;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #F9F9F9;
+}
+
+.information-list li{
+    margin-bottom: 10px;
+    color: #161616;
+    font-weight: bold;
+}
+
+.information-news h3{
+    padding: 10px 0;
+}
+
+.information-news-input{
+    display: flex;
+}
+
+.information-news [type="email"]{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.information-news [type="button"]{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #5CA720;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #F9F9F9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+.footer-list-one{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-list-one i{
+    color: #5CA720;
+}
+
+.footer-list-two{
+    display: flex;
+    gap: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-list-two i{
+    color: #5CA720;
+}
